@@ -8,5 +8,8 @@ fetchBreedDescription(args, (error, description)=>{
     console.error('Error retrieving breed description:', error);
     return;
   }
-  console.log(description);
+  else{
+    console.log(description);
+  }
+  
 });

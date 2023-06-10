@@ -20,10 +20,10 @@ describe('fetchBreedDescription', () => {
     fetchBreedDescription('frank', (err, description) => {
       // we expect no error for this scenario
       assert.equal(err, null);
-      const expectedDesc = 
+      const expectedDesc2 = 
       "Please enter a breed name after the filename";
       // compare returned description
-      assert.equal(expectedDesc, description.trim());
+      assert.equal(expectedDesc2, description.trim());
       done();
     });
   });
